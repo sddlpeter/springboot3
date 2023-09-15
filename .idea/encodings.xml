@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SpringBoot-3-Initializr/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-04-single/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-04-single/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-05-single/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-06-package/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-07-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-07-crm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-08-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-09-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-10-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-11-trans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-12-quickweb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-13-servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-14-WebMvcConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-15-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-15-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-15-uploadfile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-16-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-16-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-17-problemDetail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-18-HttpService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-18-HttpService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-19-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-19-thymeleaf/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-20-blog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lesson-20-blog/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

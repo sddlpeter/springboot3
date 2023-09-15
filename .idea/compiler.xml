@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lesson-14-WebMvcConfig" />
+        <module name="lesson-08-aop" />
+        <module name="lesson-15-uploadfile" />
+        <module name="lesson-13-servlet" />
+        <module name="lesson-19-thymeleaf" />
+        <module name="lesson-07-config" />
+        <module name="lesson-05-single" />
+        <module name="lesson-07-crm" />
+        <module name="lesson-16-exception" />
+        <module name="lesson-17-problemDetail" />
+        <module name="lesson-12-quickweb" />
+        <module name="lesson-18-HttpService" />
+        <module name="lesson-20-blog" />
+        <module name="lesson-09-jdbc" />
+        <module name="lesson-10-mybatis" />
+        <module name="lesson-11-trans" />
+        <module name="lesson-06-package" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lesson-04-single" target="20" />
+      <module name="lesson-15-upload" target="20" />
+      <module name="SpringBoot-3-Initializr" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-3-Initializr" options="-parameters" />
+      <module name="lesson-05-single" options="-parameters" />
+      <module name="lesson-06-package" options="-parameters" />
+      <module name="lesson-07-config" options="-parameters" />
+      <module name="lesson-07-crm" options="-parameters" />
+      <module name="lesson-08-aop" options="-parameters" />
+      <module name="lesson-09-jdbc" options="-parameters" />
+      <module name="lesson-10-mybatis" options="-parameters" />
+      <module name="lesson-11-trans" options="-parameters" />
+      <module name="lesson-12-quickweb" options="-parameters" />
+      <module name="lesson-13-servlet" options="-parameters" />
+      <module name="lesson-14-WebMvcConfig" options="-parameters" />
+      <module name="lesson-15-upload" options="-parameters" />
+      <module name="lesson-15-uploadfile" options="-parameters" />
+      <module name="lesson-16-exception" options="-parameters" />
+      <module name="lesson-17-problemDetail" options="-parameters" />
+      <module name="lesson-18-HttpService" options="-parameters" />
+      <module name="lesson-19-thymeleaf" options="-parameters" />
+      <module name="lesson-20-blog" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" th:href="@{/favicon.ico}" type="image/x-icon"/>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+
+    <div style="margin-left: 200px">
+        <h3>阅读最多的20篇文章</h3>
+        <table border="1px" cellpadding="0px" cellspacing="0px">
+            <thead>
+            <th>选择</th>
+            <th>序号</th>
+            <th>标题</th>
+            <th>副标题</th>
+            <th>已读数</th>
+            <th>发布时间</th>
+            <th>最后修改时间</th>
+            <th>操作</th>
+            </thead>
+            <tbody>
+            <tr th:each="article, loopStatus: ${articleList}">
+                <td><input type="checkbox" th:value="${article.id}"></td>
+                <td th:text="${loopStatus.index + 1}"></td>
+                <td th:text="${article.title}"></td>
+                <td th:text="${article.summary}"></td>
+                <td th:text="${article.readCount}"></td>
+                <td th:text="${article.createTime}"></td>
+                <td th:text="${article.updateTime}"></td>
+                <td><a th:href="@{/article/get(id=${article.id})}">编辑文章</a> </td>
+            </tr>
+            <tr>
+                <td colspan="8">
+                    <table width="100%">
+                        <tr>
+                            <td><button id="add" onclick="addArticle()">发布新文章</button></td>
+                            <td><button id="del" onclick="deleteArticle()">删除文章</button></td>
+                            <td><button id="view" onclick="overView()">文章概览</button></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <form id="frm" th:action="@{/view/addArticle}" method="get"></form>
+        <form id="delFrm" th:action="@{/article/remove}" method="post">
+            <input type="hidden" name="ids" id="ids" value="">
+        </form>
+    </div>
+
+<script type="text/javascript">
+    function addArticle() {
+        $("#frm").submit();
+    }
+
+    function deleteArticle() {
+        var ids = [];
+        $("input[type='checkbox']:checked").each((index, item) => {
+            ids.push(item.value);
+        })
+
+        if (ids.length == 0) {
+            alert("请选择文章");
+            return;
+        }
+
+        $("#ids").val(ids);
+        $("#delFrm").submit();
+    }
+
+    function overView() {
+        var ids = [];
+        $("input[type='checkbox']:checked").each((index, item) => {
+            ids.push(item.value);
+        })
+
+        if (ids.length != 1) {
+            alert("选择一个文章查看");
+            return;
+        }
+
+        $.get("../article/detail/overview", {id: ids[0]}, (data, status) => {
+            alert(data);
+        })
+    }
+</script>
+
+</body>
+</html>

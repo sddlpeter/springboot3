@@ -1,0 +1,48 @@
+app:
+  name: lesson-07-yml
+  owner: zhangSan
+  port: 9000
+
+spring:
+  config:
+    import: conf/db.yml, conf/redis.yml
+
+  # 激活某个环境
+  profiles:
+    active: test
+
+
+myapp:
+  name: lesson-07-yml
+  owner: zhangSan01
+  port: 9999
+  security:
+    username: root
+    password: 123456
+
+security:
+  username: root
+  password: 111222
+
+
+
+#配置集合
+names:
+  - zhangSan
+  - liSi
+
+servers:
+  - title: 华北服务器
+    ip: 202.112.12.1
+  - title: 西南服务器
+    ip: 106.29.1.1
+
+users:
+  user1:
+    name: zhangSan
+    sex: m
+    age: 22
+  user2:
+    name: liSi
+    sex: m
+    age: 23

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/lesson-06-crm" />
+    <file type="web" url="file://$PROJECT_DIR$/lesson-08-config" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringBoot-3-Initializr/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-04-single/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-05-single/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-07-crm/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-06-package/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-07-config/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-08-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-09-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-10-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-11-trans/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-12-quickweb/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-13-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-14-WebMvcConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-15-uploadFiles/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-15-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-15-uploadfile/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-16-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-17-problemDetail/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-14-WebMvcConfig/lesson-18-HttpService/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-19-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-18-HttpService/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-20-blog/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/SpringBoot-3-Initializr/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-04-single/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson-15-upload/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

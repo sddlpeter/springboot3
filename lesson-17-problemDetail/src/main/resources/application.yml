@@ -1,0 +1,19 @@
+product:
+  books:
+    - isbn: B001
+      name: java
+      author: liSi
+    - isbn: B002
+      name: tomcat
+      author: zhangSan
+    - isbn: B003
+      name: jvm
+      author: wangWu
+
+server:
+  servlet:
+    context-path: /api
+spring:
+  mvc:
+    problemdetails:
+      enabled: true

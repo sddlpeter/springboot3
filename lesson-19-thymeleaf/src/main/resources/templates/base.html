@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>if-for</h3>
+<div th:if="10>2">10大于2</div>
+<div th:if="${login}">用户已登录</div>
+<div th:if="${user.age > 18}">用户成年了</div>
+
+<br/>
+<h3>th:each循环</h3>
+
+<table border="1">
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>age</td>
+    </tr>
+    <tr th:each="u:${users}">
+        <td th:text="${u.id}"></td>
+        <td th:text="${u.name}"></td>
+        <td th:text="${u.age}"></td>
+    </tr>
+</table>
+</body>
+</html>
